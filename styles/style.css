@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-intro__header {
+    margin: 0px;
+    background-image: url('https://st.depositphotos.com/2101611/3534/i/600/depositphotos_35341205-stock-photo-white-gray-background.jpg');
+    background-size: 290% 800%;
+    background-repeat: no-repeat;
+    padding: 1.25% 10%;
+    display: block;
+    max-width: 80%;
+    color: rgb(53, 85, 197);
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.images {
+    background-color: #F3F3F3;
+}
+
+.images__bd_hero {
+    background-image: url('../images/bg_hero.jpeg');
+    background-size: 100% 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 110vh;
+}
+
+.block-text {
+    padding: 22% 0% 22% 5%;
+}
+
+.block-text__header {
+    margin: 0px;
+    background: linear-gradient( 330deg, #c84cae 0%, #7e5af4 25%, #7e5af4 50%, #74d0f6 75%, #c84cae 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px !important;
+    font-weight: 700;
+    line-height: 1.0 !important;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.block-text__text {
+    margin: 0px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    background: linear-gradient( 330deg, #7e5af4 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #c84cae 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/* elf bar 800 */
+
+.elf-bar800{
+    background-position: right;
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position:right 120px bottom -50px;
+    background-size: 40% 120%;
+    background-image: url('../images/202012040958548262_1200X960.jpeg');
+}
+
+/* elf bar 1500 */
+
+.elf-bar1500{
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: 55px;
+    background-size: 50% 150%;
+    width: 100%;
+    background-image: url('../images/202012040959428654_1200X960.jpeg');
+}
+
+.wrapper__elf-bar1500{
+    background-color: #F2F4FF;
+}
+
+.text-intro__elf-bar800{
+    line-height: 1.5;
+    text-align: left;
+    width: 40%;
+    padding: 3%;
+}
+
+.text-intro__elf-bar1500{
+    line-height: 1.5;
+    text-align: left;
+    padding: 3%;
+    float: right;
+    width: 40%;
+}
+
+.text-intro__elf-bar1500__header{
+    font-size: 30px;
+    margin-bottom: 22px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.text-intro__elf-bar800__header{
+    font-size: 30px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin-bottom: 22px;
+}
+
+.text-intro__elf-bar800__text{
+    color: #777;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.text-intro__elf-bar1500__text{
+    color: #777;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.bottom-buy{
+    display: block;
+margin: 50px 0px 0px 35%;
+padding: 8px 12px;
+width: max-content;
+color: white;
+font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    font-weight: 400;
+border-radius:32px;
+background-color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
