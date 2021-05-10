@@ -3,11 +3,11 @@ body {
     padding: 0px;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4,p{
+h1, h2, h3, h4, p {
     margin: 0px;
     padding: 0px;
 }
@@ -48,9 +48,9 @@ h1,h2,h3,h4,p{
     background: linear-gradient( 330deg, #c84cae 0%, #7e5af4 25%, #7e5af4 50%, #74d0f6 75%, #c84cae 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 100px ;
+    font-size: 100px;
     font-weight: 700;
-    line-height: 1.0 ;
+    line-height: 1.0;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
@@ -66,20 +66,20 @@ h1,h2,h3,h4,p{
 
 /* elf bar 800 */
 
-.elf-bar800{
+.elf-bar800 {
     background-position: right;
     width: 100%;
     height: 70vh;
     padding: 3%;
     background-repeat: no-repeat;
-    background-position:right 120px bottom -50px;
+    background-position: right 120px bottom -50px;
     background-size: 40% 120%;
     background-image: url('../images/202012040958548262_1200X960.jpeg');
 }
 
 /* elf bar 1500 */
 
-.elf-bar1500{
+.elf-bar1500 {
     padding: 3%;
     height: 70vh;
     background-repeat: no-repeat;
@@ -89,373 +89,315 @@ h1,h2,h3,h4,p{
     background-image: url('../images/202012040959428654_1200X960.jpeg');
 }
 
-.wrapper__elf-bar1500{
+.wrapper__elf-bar1500 {
     background-color: #F2F4FF;
 }
 
-.text-intro__elf-bar800{
+.text-intro__elf-bar800 {
     line-height: 1.5;
     text-align: left;
     width: 40%;
 }
 
-.text-intro__elf-bar1500{
+.text-intro__elf-bar1500 {
     line-height: 1.5;
     text-align: left;
     float: right;
     width: 40%;
 }
 
-.text-intro__elf-bar1500__header{
+.text-intro__elf-bar1500__header {
     font-size: 30px;
     margin-bottom: 22px;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-.text-intro__elf-bar800__header{
+.text-intro__elf-bar800__header {
     font-size: 30px;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     margin-bottom: 22px;
 }
 
-.text-intro__elf-bar800__text{
+.text-intro__elf-bar800__text {
     color: #777;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-.text-intro__elf-bar1500__text{
+.text-intro__elf-bar1500__text {
     color: #777;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-.bottom-buy{
+.bottom-buy {
     display: block;
-margin: 50px 0px 0px 35%;
-padding: 8px 12px;
-width: max-content;
-color: white;
-font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 50px 0px 0px 35%;
+    padding: 8px 12px;
+    width: max-content;
+    color: white;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
     line-height: 18px;
     font-weight: 400;
-border-radius:32px;
-background-color: black;
-text-decoration: none;
+    border-radius: 32px;
+    background-color: black;
+    text-decoration: none;
 }
 
 @media (min-width: 975px) and (max-width: 1199px) {
-    .bottom-buy{
+    .bottom-buy {
         margin: 20px 0px 0px 35%;
     }
-
-    .text-intro__elf-bar800__header{
-font-size: 25px;
+    .elf-bar800 {
+        background-position: right 120px bottom 0px;
     }
-
-    .text-intro__elf-bar1500__header{
-font-size: 25px;
+    .text-intro__elf-bar800__header {
+        font-size: 25px;
     }
-
-    .text-intro__elf-bar1500__text{
-font-size: 15px;
+    .text-intro__elf-bar1500__header {
+        font-size: 25px;
     }
-
-    .text-intro__elf-bar800__text{
+    .text-intro__elf-bar1500__text {
         font-size: 15px;
     }
-
-    .text-intro__header{
+    .text-intro__elf-bar800__text {
+        font-size: 15px;
+    }
+    .text-intro__header {
         font-size: 36px;
     }
-
-    .block-text__header{
+    .block-text__header {
         font-size: 85px;
     }
-
-    .block-text__text{
+    .block-text__text {
         font-size: 30px;
     }
 }
 
 @media (min-width: 800px) and (max-width: 975px) {
-    .bottom-buy{
+    .bottom-buy {
         margin: 14px 0px 0px 35%;
     }
-
-    .text-intro__elf-bar800__header{
-font-size: 22px;
+    .text-intro__elf-bar800__header {
+        font-size: 22px;
     }
-
-    .text-intro__elf-bar1500__header{
-font-size: 22px;
+    .text-intro__elf-bar1500__header {
+        font-size: 22px;
     }
-
-    .text-intro__elf-bar1500__text{
-font-size: 14px;
-    }
-
-    .text-intro__elf-bar800__text{
+    .text-intro__elf-bar1500__text {
         font-size: 14px;
     }
-
-    .text-intro__header{
+    .text-intro__elf-bar800__text {
+        font-size: 14px;
+    }
+    .text-intro__header {
         font-size: 29px;
     }
-
-    .block-text__header{
+    .block-text__header {
         font-size: 65px;
     }
-
-    .block-text__text{
+    .block-text__text {
         font-size: 23px;
     }
-
-    .elf-bar1500{
-height: 83vh;
+    .elf-bar1500 {
+        height: 83vh;
     }
-
-    .elf-bar800{
+    .elf-bar800 {
         height: 80vh;
     }
-
-    .text-intro__elf-bar800{
+    .text-intro__elf-bar800 {
         width: 50%;
     }
-
-    .text-intro__elf-bar1500{
+    .text-intro__elf-bar1500 {
         width: 50%;
     }
-
-    .elf-bar1500{
+    .elf-bar1500 {
         background-position: 40px;
         background-size: 40% 130%;
     }
-
-    .elf-bar800{
-        background-position:right 70px bottom -50px;
+    .elf-bar800 {
+        background-position: right 70px bottom 0px;
         background-size: 35% 100%;
     }
-
-    .text-intro__elf-bar1500__header{
+    .text-intro__elf-bar1500__header {
         margin-bottom: 5px;
     }
-
-    .text-intro__elf-bar800__header{
+    .text-intro__elf-bar800__header {
         margin-bottom: 5px;
     }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
-    .bottom-buy{
+    .bottom-buy {
         margin: 14px 0px 0px 35%;
         font-size: 13px;
         padding: 4px 8px;
     }
-
-    .text-intro__elf-bar800__header{
-font-size: 19px;
-    }
-
-    .text-intro__elf-bar1500__header{
-font-size: 19px;
-    }
-
-    .text-intro__elf-bar1500__text{
-font-size: 12px;
-    }
-
-    .text-intro__elf-bar800__text{
-        font-size: 12px;
-    }
-
-    .text-intro__header{
-        font-size: 24px;
-    }
-
-    .block-text__header{
-        font-size: 55px;
-    }
-
-    .block-text__text{
-        font-size: 20px;
-    }
-
-    .elf-bar1500{
-height: 80vh;
-    }
-
-    .elf-bar800{
-        height: 80vh;
-    }
-
-    .text-intro__elf-bar800{
-        width: 50%;
-    }
-
-    .text-intro__elf-bar1500{
-        width: 50%;
-    }
-
-    .elf-bar1500{
-        padding: 1.5% 3%;
-        background-position: 40px;
-        background-size: 40% 130%;
-    }
-
-    .elf-bar800{
-        padding: 1.5% 3%;
-        background-position:right 70px bottom -50px;
-        background-size: 35% 100%;
-    }
-
-    .text-intro__elf-bar1500__header{
-        margin-bottom: 0px;
-    }
-
-    .text-intro__elf-bar800__header{
-        margin-bottom: 0px;
-    }
-}
-
-@media (min-width: 450px) and (max-width: 600px) {
-    .bottom-buy{
-        margin: 14px 0px 0px 35%;
-        font-size: 12px;
-        padding: 4px 8px;
-    }
-
-    .text-intro__elf-bar800__header{
-font-size: 16px;
-    }
-
-    .text-intro__elf-bar1500__header{
-font-size: 16px;
-    }
-
-    .text-intro__elf-bar1500__text{
-font-size: 10px;
-    }
-
-    .text-intro__elf-bar800__text{
-        font-size: 10px;
-    }
-
-    .text-intro__header{
+    .text-intro__elf-bar800__header {
         font-size: 19px;
     }
-
-    .block-text__header{
-        font-size: 43px;
+    .text-intro__elf-bar1500__header {
+        font-size: 19px;
     }
-
-    .block-text__text{
-        font-size: 16.5px;
+    .text-intro__elf-bar1500__text {
+        font-size: 12px;
     }
-
-    .elf-bar1500{
-height: 85vh;
+    .text-intro__elf-bar800__text {
+        font-size: 12px;
     }
-
-    .elf-bar800{
-        height: 85vh;
+    .text-intro__header {
+        font-size: 24px;
     }
-
-    .text-intro__elf-bar800{
-        width: 53%;
+    .block-text__header {
+        font-size: 55px;
     }
-
-    .text-intro__elf-bar1500{
-        width: 53%;
+    .block-text__text {
+        font-size: 20px;
     }
-
-    .elf-bar1500{
+    .elf-bar1500 {
+        height: 80vh;
+    }
+    .elf-bar800 {
+        height: 80vh;
+    }
+    .text-intro__elf-bar800 {
+        width: 50%;
+    }
+    .text-intro__elf-bar1500 {
+        width: 50%;
+    }
+    .elf-bar1500 {
         padding: 1.5% 3%;
         background-position: 40px;
         background-size: 40% 130%;
     }
-
-    .elf-bar800{
+    .elf-bar800 {
         padding: 1.5% 3%;
-        background-position:right 70px bottom -50px;
+        background-position: right 70px bottom 0px;
         background-size: 35% 100%;
     }
+    .text-intro__elf-bar1500__header {
+        margin-bottom: 0px;
+    }
+    .text-intro__elf-bar800__header {
+        margin-bottom: 0px;
+    }
+}
 
-    .text-intro__elf-bar1500__header{
+@media (min-width: 500px) and (max-width: 600px) {
+    .bottom-buy {
+        margin: 14px 0px 0px 35%;
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+    .text-intro__elf-bar800__header {
+        font-size: 16px;
+    }
+    .text-intro__elf-bar1500__header {
+        font-size: 16px;
+    }
+    .text-intro__elf-bar1500__text {
+        font-size: 10px;
+    }
+    .text-intro__elf-bar800__text {
+        font-size: 10px;
+    }
+    .text-intro__header {
+        font-size: 19px;
+    }
+    .block-text__header {
+        font-size: 43px;
+    }
+    .block-text__text {
+        font-size: 16.5px;
+    }
+    .elf-bar1500 {
+        height: 85vh;
+    }
+    .elf-bar800 {
+        height: 85vh;
+    }
+    .text-intro__elf-bar800 {
+        width: 53%;
+    }
+    .text-intro__elf-bar1500 {
+        width: 53%;
+    }
+    .elf-bar1500 {
+        padding: 1.5% 3%;
+        background-position: 40px;
+        background-size: 40% 130%;
+    }
+    .elf-bar800 {
+        padding: 1.5% 3%;
+        background-position: right 70px bottom 0px;
+        background-size: 35% 100%;
+    }
+    .text-intro__elf-bar1500__header {
         margin-bottom: 5px;
     }
-
-    .text-intro__elf-bar800__header{
+    .text-intro__elf-bar800__header {
         margin-bottom: 5px;
     }
 }
 
-@media (min-width: 450px) and (max-width: 600px) {
-    .bottom-buy{
-        margin: 14px 0px 0px 35%;
-        font-size: 11px;
+@media (min-width: 300px) and (max-width: 500px) {
+    .bottom-buy {
+        margin: 14px 0px 0px 20%;
+        font-size: 9px;
         padding: 4px 8px;
     }
-
-    .text-intro__elf-bar800__header{
-font-size: 13.5px;
+    .text-intro__elf-bar800__header {
+        font-size: 12px;
     }
-
-    .text-intro__elf-bar1500__header{
-font-size: 13.5px;
+    .text-intro__elf-bar1500__header {
+        font-size: 12px;
     }
-
-    .text-intro__elf-bar1500__text{
-font-size: 8px;
+    .text-intro__elf-bar1500__text {
+        font-size: 7.5px;
     }
-
-    .text-intro__elf-bar800__text{
-        font-size: 8px;
+    .text-intro__elf-bar800__text {
+        font-size: 7.5px;
     }
-
-    .text-intro__header{
+    .text-intro__header {
         font-size: 17px;
     }
-
-    .block-text__header{
+    .block-text__header {
         font-size: 36px;
     }
-
-    .block-text__text{
+    .block-text__text {
         font-size: 16px;
     }
-
-    .elf-bar1500{
-height: 85vh;
+    .elf-bar1500 {
+        height: 30vh;
     }
-
-    .elf-bar800{
-        height: 85vh;
+    .elf-bar800 {
+        height: 30vh;
     }
-
-    .text-intro__elf-bar800{
+    .text-intro__elf-bar800 {
         width: 53%;
     }
-
-    .text-intro__elf-bar1500{
+    .text-intro__elf-bar1500 {
         width: 53%;
     }
-
-    .elf-bar1500{
+    .elf-bar1500 {
         padding: 1.5% 3%;
         background-position: 11px;
         background-size: 40% 130%;
     }
-
-    .elf-bar800{
+    .elf-bar800 {
         padding: 1.5% 3%;
-        background-position:right 70px bottom -50px;
+        background-position: right 30px bottom 0px;
         background-size: 35% 100%;
     }
-
-    .text-intro__elf-bar1500__header{
+    .text-intro__elf-bar1500__header {
         margin-bottom: 5px;
     }
-
-    .text-intro__elf-bar800__header{
+    .text-intro__elf-bar800__header {
         margin-bottom: 5px;
+    }
+    .images__bd_hero {
+        height: 45vh;
+    }
+    .block-text {
+        padding-top: 37%;
     }
 }
