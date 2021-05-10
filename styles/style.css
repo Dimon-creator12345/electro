@@ -114,7 +114,7 @@ flex-wrap: wrap;
     background-repeat: no-repeat;
     order: -999;
     width: 100%;
-    height: 150px;
+    height: 35vh;
 }
 
 .text-intro__elf-bar1500__img{
@@ -124,7 +124,7 @@ flex-wrap: wrap;
     order: -999;
     margin: 0px auto;
     width: 100%;
-    height: 150px;
+    height: 35vh;
 }
 
 .text-intro__elf-bar1500__header {
@@ -351,10 +351,10 @@ flex-wrap: wrap;
         font-size: 21px;
     }
     .text-intro__elf-bar1500__text {
-        font-size: 12px;
+        font-size: 14px;
     }
     .text-intro__elf-bar800__text {
-        font-size: 12px;
+        font-size: 14px;
     }
     .text-intro__header {
         font-size: 17px;
@@ -378,9 +378,9 @@ flex-wrap: wrap;
         margin-bottom: 5px;
     }
     .images__bd_hero {
-        height: 50vh;
+        height: 65vh;
     }
     .block-text {
-        padding-top: 32%;
+        padding-top: 42%;
     }
 }
