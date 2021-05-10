@@ -78,12 +78,14 @@ display: inline-block;
 
 .elf-bar800 {
 display: flex;
+flex-wrap: wrap;
 }
 
 /* elf bar 1500 */
 
 .elf-bar1500 {
 display: flex;
+flex-wrap: wrap;
 }
 
 .wrapper__elf-bar1500 {
@@ -91,44 +93,38 @@ display: flex;
 }
 
 .text-intro__elf-bar800 {
+    text-align: center;
     line-height: 1.5;
-    text-align: left;
     padding: 3%;
-    height: 70vh;
     width: 50%;
 }
 
 .text-intro__elf-bar1500 {
+    text-align: center;
     line-height: 1.5;
-    text-align: left;
     padding: 3%;
-    height: 70vh;
-    width: 50%;
-}
-
-.text-intro__elf-bar1500 {
-    line-height: 1.5;
-    text-align: left;
-    padding: 3%;
-    height: 70vh;
-    width: 50%;
+    width: 100%;
 }
 
 .text-intro__elf-bar800__img{
+    display: block;
     background-image: url('../images/202012040958548262_1200X960.jpeg');
-    background-size: 100% 100%;
+    background-size: 55% 100%;
+    background-position:50% top;
     background-repeat: no-repeat;
-    order: 999;
-    width: 50%;
+    order: -999;
+    width: 100%;
+    height: 150px;
 }
 
 .text-intro__elf-bar1500__img{
-    background-image: url('../images/150011.jpeg');
-    background-size: cover;
+    background-image: url('../images/555.png');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position:-100px top ;
     order: -999;
-    width: 50%;
+    margin: 0px auto;
+    width: 100%;
+    height: 150px;
 }
 
 .text-intro__elf-bar1500__header {
@@ -140,7 +136,7 @@ display: flex;
 .text-intro__elf-bar800__header {
     font-size: 30px;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .text-intro__elf-bar800__text {
@@ -155,7 +151,7 @@ display: flex;
 
 .bottom-buy {
     display: block;
-    margin: 50px 0px 0px 35%;
+    margin: 0px auto;
     padding: 8px 12px;
     width: max-content;
     color: white;
@@ -344,21 +340,21 @@ display: flex;
 
 @media (min-width: 0px) and (max-width: 500px) {
     .bottom-buy {
-        margin: 14px 0px 0px 20%;
-        font-size: 9px;
-        padding: 4px 8px;
+        margin: 15px auto 15px;
+        font-size: 14px;
+        padding: 7px 14px;
     }
     .text-intro__elf-bar800__header {
-        font-size: 12px;
+        font-size: 21px;
     }
     .text-intro__elf-bar1500__header {
-        font-size: 12px;
+        font-size: 21px;
     }
     .text-intro__elf-bar1500__text {
-        font-size: 7px;
+        font-size: 12px;
     }
     .text-intro__elf-bar800__text {
-        font-size: 7px;
+        font-size: 12px;
     }
     .text-intro__header {
         font-size: 17px;
@@ -369,17 +365,11 @@ display: flex;
     .block-text__text {
         font-size: 16px;
     }
-    .elf-bar1500 {
-        height: 30vh;
-    }
-    .elf-bar800 {
-        height: 30vh;
-    }
     .text-intro__elf-bar800 {
-        width: 53%;
+        width: 100%;
     }
     .text-intro__elf-bar1500 {
-        width: 53%;
+        width: 100%;
     }
     .text-intro__elf-bar1500__header {
         margin-bottom: 5px;
