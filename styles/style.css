@@ -3,6 +3,10 @@ body {
     padding: 0px;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 h1,h2,h3,h4,p{
     margin: 0px;
     padding: 0px;
@@ -15,7 +19,7 @@ h1,h2,h3,h4,p{
     background-repeat: no-repeat;
     padding: 1.25% 10%;
     display: block;
-    max-width: 80%;
+    max-width: 100%;
     color: rgb(53, 85, 197);
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -44,9 +48,9 @@ h1,h2,h3,h4,p{
     background: linear-gradient( 330deg, #c84cae 0%, #7e5af4 25%, #7e5af4 50%, #74d0f6 75%, #c84cae 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 100px !important;
+    font-size: 100px ;
     font-weight: 700;
-    line-height: 1.0 !important;
+    line-height: 1.0 ;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
@@ -66,6 +70,7 @@ h1,h2,h3,h4,p{
     background-position: right;
     width: 100%;
     height: 70vh;
+    padding: 3%;
     background-repeat: no-repeat;
     background-position:right 120px bottom -50px;
     background-size: 40% 120%;
@@ -75,6 +80,7 @@ h1,h2,h3,h4,p{
 /* elf bar 1500 */
 
 .elf-bar1500{
+    padding: 3%;
     height: 70vh;
     background-repeat: no-repeat;
     background-position: 55px;
@@ -91,13 +97,11 @@ h1,h2,h3,h4,p{
     line-height: 1.5;
     text-align: left;
     width: 40%;
-    padding: 3%;
 }
 
 .text-intro__elf-bar1500{
     line-height: 1.5;
     text-align: left;
-    padding: 3%;
     float: right;
     width: 40%;
 }
@@ -135,8 +139,177 @@ font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-weight: 400;
 border-radius:32px;
 background-color: black;
+text-decoration: none;
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 975px) and (max-width: 1199px) {
+    .bottom-buy{
+        margin: 20px 0px 0px 35%;
+    }
 
+    .text-intro__elf-bar800__header{
+font-size: 25px;
+    }
+
+    .text-intro__elf-bar1500__header{
+font-size: 25px;
+    }
+
+    .text-intro__elf-bar1500__text{
+font-size: 15px;
+    }
+
+    .text-intro__elf-bar800__text{
+        font-size: 15px;
+    }
+
+    .text-intro__header{
+        font-size: 36px;
+    }
+
+    .block-text__header{
+        font-size: 85px;
+    }
+
+    .block-text__text{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 975px) {
+    .bottom-buy{
+        margin: 14px 0px 0px 35%;
+    }
+
+    .text-intro__elf-bar800__header{
+font-size: 22px;
+    }
+
+    .text-intro__elf-bar1500__header{
+font-size: 22px;
+    }
+
+    .text-intro__elf-bar1500__text{
+font-size: 14px;
+    }
+
+    .text-intro__elf-bar800__text{
+        font-size: 14px;
+    }
+
+    .text-intro__header{
+        font-size: 29px;
+    }
+
+    .block-text__header{
+        font-size: 65px;
+    }
+
+    .block-text__text{
+        font-size: 23px;
+    }
+
+    .elf-bar1500{
+height: 83vh;
+    }
+
+    .elf-bar800{
+        height: 80vh;
+    }
+
+    .text-intro__elf-bar800{
+        width: 50%;
+    }
+
+    .text-intro__elf-bar1500{
+        width: 50%;
+    }
+
+    .elf-bar1500{
+        background-position: 40px;
+        background-size: 40% 130%;
+    }
+
+    .elf-bar800{
+        background-position:right 70px bottom -50px;
+        background-size: 35% 100%;
+    }
+
+    .text-intro__elf-bar1500__header{
+        margin-bottom: 5px;
+    }
+
+    .text-intro__elf-bar800__header{
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .bottom-buy{
+        margin: 14px 0px 0px 35%;
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
+    .text-intro__elf-bar800__header{
+font-size: 19px;
+    }
+
+    .text-intro__elf-bar1500__header{
+font-size: 19px;
+    }
+
+    .text-intro__elf-bar1500__text{
+font-size: 12px;
+    }
+
+    .text-intro__elf-bar800__text{
+        font-size: 12px;
+    }
+
+    .text-intro__header{
+        font-size: 29px;
+    }
+
+    .block-text__header{
+        font-size: 65px;
+    }
+
+    .block-text__text{
+        font-size: 23px;
+    }
+
+    .elf-bar1500{
+height: 80vh;
+    }
+
+    .elf-bar800{
+        height: 80vh;
+    }
+
+    .text-intro__elf-bar800{
+        width: 50%;
+    }
+
+    .text-intro__elf-bar1500{
+        width: 50%;
+    }
+
+    .elf-bar1500{
+        background-position: 40px;
+        background-size: 40% 130%;
+    }
+
+    .elf-bar800{
+        background-position:right 70px bottom -50px;
+        background-size: 35% 100%;
+    }
+
+    .text-intro__elf-bar1500__header{
+        margin-bottom: 0px;
+    }
+
+    .text-intro__elf-bar800__header{
+        margin-bottom: 0px;
+    }
 }
