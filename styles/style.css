@@ -268,15 +268,15 @@ font-size: 12px;
     }
 
     .text-intro__header{
-        font-size: 29px;
+        font-size: 24px;
     }
 
     .block-text__header{
-        font-size: 65px;
+        font-size: 55px;
     }
 
     .block-text__text{
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .elf-bar1500{
@@ -296,11 +296,13 @@ height: 80vh;
     }
 
     .elf-bar1500{
+        padding: 1.5% 3%;
         background-position: 40px;
         background-size: 40% 130%;
     }
 
     .elf-bar800{
+        padding: 1.5% 3%;
         background-position:right 70px bottom -50px;
         background-size: 35% 100%;
     }
@@ -311,5 +313,77 @@ height: 80vh;
 
     .text-intro__elf-bar800__header{
         margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .bottom-buy{
+        margin: 14px 0px 0px 35%;
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .text-intro__elf-bar800__header{
+font-size: 16px;
+    }
+
+    .text-intro__elf-bar1500__header{
+font-size: 16px;
+    }
+
+    .text-intro__elf-bar1500__text{
+font-size: 10px;
+    }
+
+    .text-intro__elf-bar800__text{
+        font-size: 10px;
+    }
+
+    .text-intro__header{
+        font-size: 19px;
+    }
+
+    .block-text__header{
+        font-size: 43px;
+    }
+
+    .block-text__text{
+        font-size: 16.5px;
+    }
+
+    .elf-bar1500{
+height: 85vh;
+    }
+
+    .elf-bar800{
+        height: 85vh;
+    }
+
+    .text-intro__elf-bar800{
+        width: 53%;
+    }
+
+    .text-intro__elf-bar1500{
+        width: 53%;
+    }
+
+    .elf-bar1500{
+        padding: 1.5% 3%;
+        background-position: 40px;
+        background-size: 40% 130%;
+    }
+
+    .elf-bar800{
+        padding: 1.5% 3%;
+        background-position:right 70px bottom -50px;
+        background-size: 35% 100%;
+    }
+
+    .text-intro__elf-bar1500__header{
+        margin-bottom: 5px;
+    }
+
+    .text-intro__elf-bar800__header{
+        margin-bottom: 5px;
     }
 }
