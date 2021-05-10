@@ -378,9 +378,9 @@ flex-wrap: wrap;
         margin-bottom: 5px;
     }
     .images__bd_hero {
-        height: 45vh;
+        height: 50vh;
     }
     .block-text {
-        padding-top: 28%;
+        padding-top: 32%;
     }
 }
