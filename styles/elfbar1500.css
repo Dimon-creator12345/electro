@@ -85,3 +85,18 @@ cursor: pointer;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+@media (min-width: 620px) and (max-width: 800px) {
+    .card{
+        width: 48%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 620px) {
+    .card{
+        width: 48%;
+    }
+
+.card__img{
+    padding: 0px 1%;
+}
+}
