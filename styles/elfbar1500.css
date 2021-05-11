@@ -31,6 +31,7 @@ h1, h2, h3, h4, p {
     display: block;
     text-align: center;
     margin: 0px auto;
+    padding: 0px 10px;
     font-size: 18px;
     max-width: 950px;
     line-height: 1.428571429;
@@ -107,6 +108,7 @@ h1, h2, h3, h4, p {
     }
     .intro__text {
         font-size: 18px;
+        padding: 0px 10px;
         max-width: 950px;
         line-height: 1.2;
         letter-spacing: 0.1px;
@@ -146,7 +148,7 @@ h1, h2, h3, h4, p {
         max-width: 950px;
         line-height: 1.1;
         letter-spacing: 0px;
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
 }
 
@@ -159,7 +161,7 @@ h1, h2, h3, h4, p {
         max-width: 950px;
         line-height: 1.1;
         letter-spacing: 0px;
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
     .card__img {
         padding: 0px 1%;
@@ -188,7 +190,7 @@ h1, h2, h3, h4, p {
         max-width: 950px;
         line-height: 1.1;
         letter-spacing: 0px;
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
     .card__img__mango {
         display: block;
