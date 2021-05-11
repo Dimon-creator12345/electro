@@ -235,7 +235,7 @@ display: flex;
     }
 
     .text-intro__elf-bar1500__img{
-        height: 45vh;
+        height: 35vh;
         background-position: center;
         background-size: 430px 300px;
         order: -999;
@@ -256,5 +256,14 @@ display: flex;
 }
 .text-intro__elf-bar1500{
     padding: 0.5% 3%;
+}
+
+
+.text-intro__elf-bar800__img{
+    display: none;
+}
+
+.text-intro__elf-bar1500__img{
+    background-image:url('../images/202012040959428654_1200X960.jpeg');
 }
 }
