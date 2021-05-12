@@ -1,0 +1,324 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.intro__buy__two{
+    display: none;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgb(168, 52, 52);
+}
+
+.header {
+    background: linear-gradient(45deg, #5cace2 17%, #5289db 46%, #3ca6ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.intro__text {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #555;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.intro__img {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.intro__buy {
+    padding-left: 145px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: rgb(168, 52, 52);
+}
+
+.sell{
+    width: 100%;
+    text-align: left;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 0px 20px 0px 0px;
+    font-size: 20px;
+    color: rgb(168, 52, 52);
+}
+
+.oformit_zakaz{
+    width: 100%;
+    color: #2445be;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0px 0px 10px 0px;
+    border-bottom:2px solid #2445be ;
+    
+}
+
+.link__vk{
+    text-decoration: none;
+    color: rgb(168, 52, 52);
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(168, 52, 52);
+}
+
+
+
+.sposob_oplatu{
+    display: block;
+    margin-bottom:3px;
+    margin-bottom: 13px;
+}
+
+.info{
+    display: block;
+}
+
+.dostavka{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0px 0px 10px 0px;
+    color: #2445be;
+    border-bottom:2px solid #2445be ;
+}
+
+.wrapper__intro_buy{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.xaracteristik{
+    color: rgb(168, 52, 52);
+    font-size: 22px;
+    display: block;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+
+.intro__list{
+    font-size: 19px;
+    color: #5b5b8f;
+    margin: 0px;
+    font-weight: 500;
+    padding: 0px 0px 0px 29px;
+}
+
+.intro__text__text{
+    color: #5b5b8f;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.428571429;
+    letter-spacing: 0.2px;
+}
+
+.description{
+    display: block;
+    color: rgb(168, 52, 52);
+    font-size: 22px;
+    display: block;
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+}
+
+.other_info__header{
+    display: block;
+    color: rgb(168, 52, 52);
+    font-size: 22px;
+    display: block;
+    font-weight: 500;
+    padding: 12px 0px 10px 0px;
+}
+
+.other_info__text{
+    color: #5b5b8f;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.428571429;
+    letter-spacing: 0.2px;
+}
+
+@media (min-width: 670px) and (max-width: 1100px) {
+    .wrapper {
+        max-width: 1100px;
+        margin: 0px auto;
+    }
+    
+    .intro {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 350px 500px;
+        text-align: center;
+        max-width: 700px;
+        margin: 0px auto;
+    }
+
+    .intro__buy{
+        padding-left: 78px;
+    }
+
+    .header {
+        font-size: 28px;
+    }
+
+    .intro__text__text{
+        font-size: 16px;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+
+    .intro__list{
+        font-size: 17px;
+    }
+
+    .xaracteristik{
+        font-size: 20px;
+    }
+
+    .other_info__text{
+        font-size: 16px;
+    }
+
+    .other_info__header{
+        font-size: 20px;
+    }
+
+    .sell{
+        font-size: 18px;
+    }
+
+    .intro__buy{
+        font-size: 22px;
+    }
+
+    .intro__list{
+        font-size: 19px;
+        color: #5b5b8f;
+        margin: 0px;
+        font-weight: 500;
+        padding: 0px 20px 0px 10px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 669px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    
+    .intro {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        max-width: 100%;
+    }
+
+    body{
+        padding: 0px 15px 15px 15px;
+    }
+
+    .sell{
+        padding-right: 0px;
+    }
+
+    .intro__text{
+        text-align: center;
+    }
+
+    .intro__list{
+        width: max-content;
+        margin: 0px auto;
+        text-align: left;
+        font-size: 15px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+    .intro__buy{
+        display: none;
+    }
+
+    .intro__buy__two{
+        display: block;
+    }
+
+    .description{
+        display: none;
+    }
+
+    .sell{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .header{
+        font-size: 23px;
+    }
+
+    .intro__text__text{
+        font-size: 15px;
+    }
+
+    .other_info__text{
+        font-size: 15px;
+    }
+
+    .xaracteristik{
+        font-size: 20px;
+    }
+
+    .other_info__header{
+        font-size: 20px;
+    }
+
+    .oformit_zakaz{
+        font-size: 20px;
+    }
+
+    .dostavka{
+        font-size: 20px;
+    }
+}

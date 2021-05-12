@@ -8,6 +8,12 @@ h1, h2, h3, h4, p {
     padding: 0px;
 }
 
+.card{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
 .wrapper-elfbar1500 {
     max-width: 1440px;
     margin: 0px auto;
