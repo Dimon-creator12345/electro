@@ -183,7 +183,7 @@ display: flex;
         flex-wrap: wrap;
     }
     .bottom-buy {
-        margin: 15px auto 15px;
+        margin: 15px auto 20px;
         font-size: 14px;
         padding: 7px 14px;
     }
