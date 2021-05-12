@@ -216,9 +216,11 @@ display: flex;
     }
     .text-intro__elf-bar1500__header {
         margin-bottom: 5px;
+        margin-top: 20px;
     }
     .text-intro__elf-bar800__header {
         margin-bottom: 5px;
+        margin-top: 20px;
     }
     .images__bd_hero {
         height: 45vh;
